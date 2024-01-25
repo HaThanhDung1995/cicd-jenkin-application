@@ -1,6 +1,6 @@
 ﻿using DemoCICD.API.DependencyInjection.Options;
 using Microsoft.Extensions.Options;
-using Swashbuckle.AspNetCore.SwaggerGen;
+//using Swashbuckle.AspNetCore.SwaggerGen;
 
 //using Swashbuckle.AspNetCore.SwaggerGen;
 using Swashbuckle.AspNetCore.SwaggerUI;
@@ -12,7 +12,7 @@ namespace DemoCICD.API.DependencyInjection.Extensions
         public static void AddSwagger(this IServiceCollection services)
         {
             services.AddSwaggerGen();
-            services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
+            //services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
         }
 
         public static void ConfigureSwagger(this WebApplication app)
