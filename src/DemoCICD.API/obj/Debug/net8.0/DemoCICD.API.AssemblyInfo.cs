@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DemoCICD.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c86787957b95f665a583dffc5331d3a2a2d984f")]
 [assembly: System.Reflection.AssemblyProductAttribute("DemoCICD.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DemoCICD.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

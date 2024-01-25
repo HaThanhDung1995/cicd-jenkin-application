@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.API\\DemoCICD.API.csproj": {}
+    "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.API\\DemoCICD.API.csproj": {}
   },
   "projects": {
-    "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.API\\DemoCICD.API.csproj": {
+    "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.API\\DemoCICD.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.API\\DemoCICD.API.csproj",
+        "projectUniqueName": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.API\\DemoCICD.API.csproj",
         "projectName": "DemoCICD.API",
-        "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.API\\DemoCICD.API.csproj",
+        "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.API\\DemoCICD.API.csproj",
         "packagesPath": "C:\\Users\\Ha Thanh Dung\\.nuget\\packages\\",
-        "outputPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.API\\obj\\",
+        "outputPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ha Thanh Dung\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,17 +28,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Application\\DemoCICD.Application.csproj": {
-                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Application\\DemoCICD.Application.csproj"
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Application\\DemoCICD.Application.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Application\\DemoCICD.Application.csproj"
               },
-              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj": {
-                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj"
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj"
               },
-              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj": {
-                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj"
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj"
               },
-              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Presentation\\DemoCICD.Presentation.csproj": {
-                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Presentation\\DemoCICD.Presentation.csproj"
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Presentation\\DemoCICD.Presentation.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Presentation\\DemoCICD.Presentation.csproj"
               }
             }
           }
@@ -112,6 +112,10 @@
             "Swashbuckle.AspNetCore.Newtonsoft": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -137,14 +141,14 @@
         }
       }
     },
-    "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Application\\DemoCICD.Application.csproj": {
+    "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Application\\DemoCICD.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Application\\DemoCICD.Application.csproj",
+        "projectUniqueName": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Application\\DemoCICD.Application.csproj",
         "projectName": "DemoCICD.Application",
-        "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Application\\DemoCICD.Application.csproj",
+        "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Application\\DemoCICD.Application.csproj",
         "packagesPath": "C:\\Users\\Ha Thanh Dung\\.nuget\\packages\\",
-        "outputPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Application\\obj\\",
+        "outputPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ha Thanh Dung\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -161,14 +165,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Contract\\DemoCICD.Contract.csproj": {
-                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Contract\\DemoCICD.Contract.csproj"
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Contract\\DemoCICD.Contract.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Contract\\DemoCICD.Contract.csproj"
               },
-              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Domain\\DemoCICD.Domain.csproj": {
-                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Domain\\DemoCICD.Domain.csproj"
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Domain\\DemoCICD.Domain.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Domain\\DemoCICD.Domain.csproj"
               },
-              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj": {
-                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj"
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj"
               }
             }
           }
@@ -226,14 +230,14 @@
         }
       }
     },
-    "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Contract\\DemoCICD.Contract.csproj": {
+    "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Contract\\DemoCICD.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Contract\\DemoCICD.Contract.csproj",
+        "projectUniqueName": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Contract\\DemoCICD.Contract.csproj",
         "projectName": "DemoCICD.Contract",
-        "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Contract\\DemoCICD.Contract.csproj",
+        "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Contract\\DemoCICD.Contract.csproj",
         "packagesPath": "C:\\Users\\Ha Thanh Dung\\.nuget\\packages\\",
-        "outputPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Contract\\obj\\",
+        "outputPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ha Thanh Dung\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -309,14 +313,14 @@
         }
       }
     },
-    "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Domain\\DemoCICD.Domain.csproj": {
+    "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Domain\\DemoCICD.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Domain\\DemoCICD.Domain.csproj",
+        "projectUniqueName": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Domain\\DemoCICD.Domain.csproj",
         "projectName": "DemoCICD.Domain",
-        "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Domain\\DemoCICD.Domain.csproj",
+        "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Domain\\DemoCICD.Domain.csproj",
         "packagesPath": "C:\\Users\\Ha Thanh Dung\\.nuget\\packages\\",
-        "outputPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Domain\\obj\\",
+        "outputPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ha Thanh Dung\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -380,14 +384,14 @@
         }
       }
     },
-    "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj": {
+    "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj",
         "projectName": "DemoCICD.Infrastructure",
-        "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj",
+        "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Ha Thanh Dung\\.nuget\\packages\\",
-        "outputPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Infrastructure\\obj\\",
+        "outputPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ha Thanh Dung\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -404,11 +408,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Application\\DemoCICD.Application.csproj": {
-                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Application\\DemoCICD.Application.csproj"
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Application\\DemoCICD.Application.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Application\\DemoCICD.Application.csproj"
               },
-              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj": {
-                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj"
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj"
               }
             }
           }
@@ -454,14 +458,14 @@
         }
       }
     },
-    "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj": {
+    "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj",
+        "projectUniqueName": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj",
         "projectName": "DemoCICD.Persitence",
-        "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj",
+        "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj",
         "packagesPath": "C:\\Users\\Ha Thanh Dung\\.nuget\\packages\\",
-        "outputPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Persitence\\obj\\",
+        "outputPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Persitence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ha Thanh Dung\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -478,8 +482,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Domain\\DemoCICD.Domain.csproj": {
-                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Domain\\DemoCICD.Domain.csproj"
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Domain\\DemoCICD.Domain.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Domain\\DemoCICD.Domain.csproj"
               }
             }
           }
@@ -563,14 +567,14 @@
         }
       }
     },
-    "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Presentation\\DemoCICD.Presentation.csproj": {
+    "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Presentation\\DemoCICD.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Presentation\\DemoCICD.Presentation.csproj",
+        "projectUniqueName": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Presentation\\DemoCICD.Presentation.csproj",
         "projectName": "DemoCICD.Presentation",
-        "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Presentation\\DemoCICD.Presentation.csproj",
+        "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Presentation\\DemoCICD.Presentation.csproj",
         "packagesPath": "C:\\Users\\Ha Thanh Dung\\.nuget\\packages\\",
-        "outputPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Presentation\\obj\\",
+        "outputPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ha Thanh Dung\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -587,11 +591,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Application\\DemoCICD.Application.csproj": {
-                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Application\\DemoCICD.Application.csproj"
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Application\\DemoCICD.Application.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Application\\DemoCICD.Application.csproj"
               },
-              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj": {
-                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj"
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e535O7A4BcF+8SN8qMvJ4X6o+WaXiOTLmT2sjzSnBAPPfY+z6XPOcSUpltAWTnNhPe/S4pICrdUIgNRnfjff/Q==",
+  "dgSpecHash": "pLI5lmTouMQxxG3olmwJpxGHzFYrrX9c2Yb70c10QvuWpxO34fV8OYd2Qz7t+0782miV3MFbfl9aufvnln5+Gg==",
   "success": true,
-  "projectFilePath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.API\\DemoCICD.API.csproj",
+  "projectFilePath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.API\\DemoCICD.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ha Thanh Dung\\.nuget\\packages\\ardalis.smartenum\\8.0.0\\ardalis.smartenum.8.0.0.nupkg.sha512",
     "C:\\Users\\Ha Thanh Dung\\.nuget\\packages\\asp.versioning.abstractions\\8.0.0\\asp.versioning.abstractions.8.0.0.nupkg.sha512",

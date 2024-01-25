@@ -7869,7 +7869,8 @@
       "SonarAnalyzer.CSharp >= 9.7.0.75501",
       "StyleCop.Analyzers >= 1.1.118",
       "Swashbuckle.AspNetCore >= 6.5.0",
-      "Swashbuckle.AspNetCore.Newtonsoft >= 6.5.0"
+      "Swashbuckle.AspNetCore.Newtonsoft >= 6.5.0",
+      "Swashbuckle.AspNetCore.SwaggerGen >= 6.5.0"
     ]
   },
   "packageFolders": {
@@ -7878,11 +7879,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.API\\DemoCICD.API.csproj",
+      "projectUniqueName": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.API\\DemoCICD.API.csproj",
       "projectName": "DemoCICD.API",
-      "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.API\\DemoCICD.API.csproj",
+      "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.API\\DemoCICD.API.csproj",
       "packagesPath": "C:\\Users\\Ha Thanh Dung\\.nuget\\packages\\",
-      "outputPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.API\\obj\\",
+      "outputPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ha Thanh Dung\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7899,17 +7900,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Application\\DemoCICD.Application.csproj": {
-              "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Application\\DemoCICD.Application.csproj"
+            "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Application\\DemoCICD.Application.csproj": {
+              "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Application\\DemoCICD.Application.csproj"
             },
-            "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj": {
-              "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj"
+            "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj": {
+              "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj"
             },
-            "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj": {
-              "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj"
+            "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj": {
+              "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj"
             },
-            "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Presentation\\DemoCICD.Presentation.csproj": {
-              "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Presentation\\DemoCICD.Presentation.csproj"
+            "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Presentation\\DemoCICD.Presentation.csproj": {
+              "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.Presentation\\DemoCICD.Presentation.csproj"
             }
           }
         }
@@ -7981,6 +7982,10 @@
             "version": "[6.5.0, )"
           },
           "Swashbuckle.AspNetCore.Newtonsoft": {
+            "target": "Package",
+            "version": "[6.5.0, )"
+          },
+          "Swashbuckle.AspNetCore.SwaggerGen": {
             "target": "Package",
             "version": "[6.5.0, )"
           }
