@@ -39,7 +39,7 @@ builder
     .Services
     .AddControllers()
     .AddApplicationPart(DemoCICD.Presentation.AssemblyReference.Assembly);
-builder.Services.AddSwaggerGenNewtonsoftSupport();
+//builder.Services.AddSwaggerGenNewtonsoftSupport();
 builder.Services.AddFluentValidationRulesToSwagger();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwagger();
