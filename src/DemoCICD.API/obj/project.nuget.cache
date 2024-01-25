@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pLI5lmTouMQxxG3olmwJpxGHzFYrrX9c2Yb70c10QvuWpxO34fV8OYd2Qz7t+0782miV3MFbfl9aufvnln5+Gg==",
+  "dgSpecHash": "W8eAoY/GlN4USM0/2b/l1GcYkIjypyCM40Q6t34TIwR9dyX76ZtDUeZ8s/x+LQXx1dRphS1jddFqKQdrP1Nlgw==",
   "success": true,
   "projectFilePath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\cicd-jenkin-application\\src\\DemoCICD.API\\DemoCICD.API.csproj",
   "expectedPackageFiles": [
@@ -125,6 +125,7 @@
     "C:\\Users\\Ha Thanh Dung\\.nuget\\packages\\sonaranalyzer.csharp\\9.7.0.75501\\sonaranalyzer.csharp.9.7.0.75501.nupkg.sha512",
     "C:\\Users\\Ha Thanh Dung\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512",
     "C:\\Users\\Ha Thanh Dung\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\Ha Thanh Dung\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.5.0\\swashbuckle.aspnetcore.annotations.6.5.0.nupkg.sha512",
     "C:\\Users\\Ha Thanh Dung\\.nuget\\packages\\swashbuckle.aspnetcore.newtonsoft\\6.5.0\\swashbuckle.aspnetcore.newtonsoft.6.5.0.nupkg.sha512",
     "C:\\Users\\Ha Thanh Dung\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\Ha Thanh Dung\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
