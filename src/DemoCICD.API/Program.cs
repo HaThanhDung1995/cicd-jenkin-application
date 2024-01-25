@@ -39,11 +39,12 @@ builder
     .Services
     .AddControllers()
     .AddApplicationPart(DemoCICD.Presentation.AssemblyReference.Assembly);
-builder.Services
-        .AddSwaggerGenNewtonsoftSupport()
-        .AddFluentValidationRulesToSwagger()
-        .AddEndpointsApiExplorer()
-        .AddSwagger();
+builder.Services.AddSwaggerGenNewtonsoftSupport();
+builder.Services.AddFluentValidationRulesToSwagger();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwagger();
+
+
 builder.Services
     .AddApiVersioning(options => options.ReportApiVersions = true)
     .AddApiExplorer(options =>
