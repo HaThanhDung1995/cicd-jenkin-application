@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yv3TmQbmQ2FrTQtcfMXA1H3yImQNS9lbeO2cINS6eVk=",
+  "Source": "DemoCICD.API",
+  "BasePath": "_content/DemoCICD.API",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

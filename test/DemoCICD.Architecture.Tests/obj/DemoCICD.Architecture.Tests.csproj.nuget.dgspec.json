@@ -1,0 +1,763 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\test\\DemoCICD.Architecture.Tests\\DemoCICD.Architecture.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.API\\DemoCICD.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.API\\DemoCICD.API.csproj",
+        "projectName": "DemoCICD.API",
+        "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.API\\DemoCICD.API.csproj",
+        "packagesPath": "C:\\Users\\Ha Thanh Dung\\.nuget\\packages\\",
+        "outputPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ha Thanh Dung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Application\\DemoCICD.Application.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Application\\DemoCICD.Application.csproj"
+              },
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj"
+              },
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj"
+              },
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Presentation\\DemoCICD.Presentation.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Presentation\\DemoCICD.Presentation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Asp.Versioning.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Asp.Versioning.Mvc.ApiExplorer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MicroElements.Swashbuckle.FluentValidation": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.6, )"
+            },
+            "SeriLogThemesLibrary": {
+              "target": "Package",
+              "version": "[1.0.0.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.7.0.75501, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Newtonsoft": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Application\\DemoCICD.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Application\\DemoCICD.Application.csproj",
+        "projectName": "DemoCICD.Application",
+        "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Application\\DemoCICD.Application.csproj",
+        "packagesPath": "C:\\Users\\Ha Thanh Dung\\.nuget\\packages\\",
+        "outputPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ha Thanh Dung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Contract\\DemoCICD.Contract.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Contract\\DemoCICD.Contract.csproj"
+              },
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Domain\\DemoCICD.Domain.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Domain\\DemoCICD.Domain.csproj"
+              },
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.7.0.75501, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Contract\\DemoCICD.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Contract\\DemoCICD.Contract.csproj",
+        "projectName": "DemoCICD.Contract",
+        "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Contract\\DemoCICD.Contract.csproj",
+        "packagesPath": "C:\\Users\\Ha Thanh Dung\\.nuget\\packages\\",
+        "outputPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ha Thanh Dung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Ardalis.SmartEnum": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.7.0.75501, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Domain\\DemoCICD.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Domain\\DemoCICD.Domain.csproj",
+        "projectName": "DemoCICD.Domain",
+        "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Domain\\DemoCICD.Domain.csproj",
+        "packagesPath": "C:\\Users\\Ha Thanh Dung\\.nuget\\packages\\",
+        "outputPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ha Thanh Dung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.7.0.75501, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj",
+        "projectName": "DemoCICD.Infrastructure",
+        "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Ha Thanh Dung\\.nuget\\packages\\",
+        "outputPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ha Thanh Dung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Application\\DemoCICD.Application.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Application\\DemoCICD.Application.csproj"
+              },
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "SonarAnalyzer.CSharp": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.7.0.75501, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj",
+        "projectName": "DemoCICD.Persitence",
+        "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj",
+        "packagesPath": "C:\\Users\\Ha Thanh Dung\\.nuget\\packages\\",
+        "outputPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Persitence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ha Thanh Dung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Domain\\DemoCICD.Domain.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Domain\\DemoCICD.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Options.DataAnnotations": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.7.0.75501, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Presentation\\DemoCICD.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Presentation\\DemoCICD.Presentation.csproj",
+        "projectName": "DemoCICD.Presentation",
+        "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Presentation\\DemoCICD.Presentation.csproj",
+        "packagesPath": "C:\\Users\\Ha Thanh Dung\\.nuget\\packages\\",
+        "outputPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Presentation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ha Thanh Dung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Application\\DemoCICD.Application.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Application\\DemoCICD.Application.csproj"
+              },
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Asp.Versioning.Mvc.ApiExplorer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.7.0.75501, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\test\\DemoCICD.Architecture.Tests\\DemoCICD.Architecture.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\test\\DemoCICD.Architecture.Tests\\DemoCICD.Architecture.Tests.csproj",
+        "projectName": "DemoCICD.Architecture.Tests",
+        "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\test\\DemoCICD.Architecture.Tests\\DemoCICD.Architecture.Tests.csproj",
+        "packagesPath": "C:\\Users\\Ha Thanh Dung\\.nuget\\packages\\",
+        "outputPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\test\\DemoCICD.Architecture.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ha Thanh Dung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.API\\DemoCICD.API.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.API\\DemoCICD.API.csproj"
+              },
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Application\\DemoCICD.Application.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Application\\DemoCICD.Application.csproj"
+              },
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Domain\\DemoCICD.Domain.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Domain\\DemoCICD.Domain.csproj"
+              },
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Infrastructure\\DemoCICD.Infrastructure.csproj"
+              },
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Persitence\\DemoCICD.Persitence.csproj"
+              },
+              "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Presentation\\DemoCICD.Presentation.csproj": {
+                "projectPath": "D:\\Main\\Senior_Leader\\Course1\\DemoCICD\\src\\DemoCICD.Presentation\\DemoCICD.Presentation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "NetArchTest.Rules": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.7.0.75501, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

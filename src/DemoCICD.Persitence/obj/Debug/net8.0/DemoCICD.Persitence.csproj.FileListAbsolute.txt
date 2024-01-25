@@ -1,0 +1,17 @@
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Persitence\bin\Debug\net8.0\DemoCICD.Persitence.deps.json
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Persitence\bin\Debug\net8.0\DemoCICD.Persitence.runtimeconfig.json
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Persitence\bin\Debug\net8.0\DemoCICD.Persitence.dll
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Persitence\bin\Debug\net8.0\DemoCICD.Persitence.pdb
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Persitence\bin\Debug\net8.0\DemoCICD.Domain.dll
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Persitence\bin\Debug\net8.0\DemoCICD.Domain.pdb
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Persitence\obj\Debug\net8.0\DemoCICD.Persitence.csproj.AssemblyReference.cache
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Persitence\obj\Debug\net8.0\DemoCICD.Persitence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Persitence\obj\Debug\net8.0\DemoCICD.Persitence.AssemblyInfoInputs.cache
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Persitence\obj\Debug\net8.0\DemoCICD.Persitence.AssemblyInfo.cs
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Persitence\obj\Debug\net8.0\DemoCICD.Persitence.csproj.CoreCompileInputs.cache
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Persitence\obj\Debug\net8.0\DemoCICD.Persitence.csproj.CopyComplete
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Persitence\obj\Debug\net8.0\DemoCICD.Persitence.dll
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Persitence\obj\Debug\net8.0\refint\DemoCICD.Persitence.dll
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Persitence\obj\Debug\net8.0\DemoCICD.Persitence.pdb
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Persitence\obj\Debug\net8.0\DemoCICD.Persitence.genruntimeconfig.cache
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Persitence\obj\Debug\net8.0\ref\DemoCICD.Persitence.dll

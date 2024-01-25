@@ -1,0 +1,15 @@
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Application\bin\Release\net8.0\DemoCICD.Application.deps.json
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Application\bin\Release\net8.0\DemoCICD.Application.dll
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Application\bin\Release\net8.0\DemoCICD.Application.pdb
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Application\bin\Release\net8.0\DemoCICD.Domain.dll
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Application\bin\Release\net8.0\DemoCICD.Domain.pdb
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Application\obj\Release\net8.0\DemoCICD.Application.csproj.AssemblyReference.cache
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Application\obj\Release\net8.0\DemoCICD.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Application\obj\Release\net8.0\DemoCICD.Application.AssemblyInfoInputs.cache
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Application\obj\Release\net8.0\DemoCICD.Application.AssemblyInfo.cs
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Application\obj\Release\net8.0\DemoCICD.Application.csproj.CoreCompileInputs.cache
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Application\obj\Release\net8.0\DemoCICD.Application.csproj.CopyComplete
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Application\obj\Release\net8.0\DemoCICD.Application.dll
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Application\obj\Release\net8.0\refint\DemoCICD.Application.dll
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Application\obj\Release\net8.0\DemoCICD.Application.pdb
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Application\obj\Release\net8.0\ref\DemoCICD.Application.dll

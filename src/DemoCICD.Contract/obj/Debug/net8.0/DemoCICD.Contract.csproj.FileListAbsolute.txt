@@ -1,0 +1,12 @@
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Contract\obj\Debug\net8.0\DemoCICD.Contract.csproj.AssemblyReference.cache
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Contract\obj\Debug\net8.0\DemoCICD.Contract.GeneratedMSBuildEditorConfig.editorconfig
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Contract\obj\Debug\net8.0\DemoCICD.Contract.AssemblyInfoInputs.cache
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Contract\obj\Debug\net8.0\DemoCICD.Contract.AssemblyInfo.cs
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Contract\obj\Debug\net8.0\DemoCICD.Contract.csproj.CoreCompileInputs.cache
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Contract\bin\Debug\net8.0\DemoCICD.Contract.deps.json
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Contract\bin\Debug\net8.0\DemoCICD.Contract.dll
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Contract\bin\Debug\net8.0\DemoCICD.Contract.pdb
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Contract\obj\Debug\net8.0\DemoCICD.Contract.dll
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Contract\obj\Debug\net8.0\refint\DemoCICD.Contract.dll
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Contract\obj\Debug\net8.0\DemoCICD.Contract.pdb
+D:\Main\Senior_Leader\Course1\DemoCICD\src\DemoCICD.Contract\obj\Debug\net8.0\ref\DemoCICD.Contract.dll
